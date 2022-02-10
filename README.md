@@ -22,6 +22,6 @@ Páginas em HTML puro desenvolvidas durante a disciplina de desenvolvimento web 
 
 - Apenas abra os arquivos em um navegador de internet com suporte a HTML.
 
-## Autore:
+## Autor:
 
 - Caio Cesar de Morais Sales
