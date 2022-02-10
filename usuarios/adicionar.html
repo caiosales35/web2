@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="description" content="Adição de usuários." />
+        <meta name="keywords" content="Usuários, Usuário" />
+        <title>Adicionar usuários</title>
+    </head>
+
+    <body>
+        <main>
+            <h1>Adicionar usuário</h1>
+            <p>Preencha corretamente todos os campos para adicionar um novo usuário</p>
+            <form method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" maxlength="20" required value="" />
+                <br />
+                <br />
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" maxlength="20" required value="" />
+                <br />
+                <br />
+                <label for="tipo">Tipo:</label>
+                <select name="tipo" id="tipo" required>
+                  <option value="ADMIN">ADMIN</option>
+                  <option value="CLIENT">CLIENT</option>
+                </select> 
+                <br />
+                <br />
+                <input type="submit" value="Adicionar">
+                <input type="reset" value="Limpar">
+                <a href="listar.html">Voltar</a>
+            </form> 
+        </main>
+        <hr />
+        <figure>
+            <img src="https://blog.gazinatacado.com.br/wp-content/uploads/2017/04/como-lidar-com-diferentes-tipos-de-clientes-2.png" alt="Imagem de usuários">
+        </figure>
+        <hr />
+        <footer>
+            <p><a href="https://www.linkedin.com/in/caiosales/" target="_blank">Caio Sales - Linkedin</a></p>
+        </footer> 
+    </body>
+</html>
