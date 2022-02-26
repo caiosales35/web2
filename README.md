@@ -1,10 +1,11 @@
 # HTML Page
 
-Páginas em HTML puro desenvolvidas durante a disciplina de desenvolvimento web 2, durante a graduação em ciência da computação, na UFSCar.
+Páginas em HTML e CSS desenvolvidas durante a disciplina de desenvolvimento web 2, durante a graduação em ciência da computação, na UFSCar.
 
 ## Tecnologias Utilizadas:
 
 - [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
 
 ## Páginas (CRUD Usuários):
 
