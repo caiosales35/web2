@@ -6,40 +6,47 @@
         <meta name="description" content="Remoção de imobiliárias." />
         <meta name="keywords" content="Imobiliárias, Imobiliária" />
         <title>Remover imobiliárias</title>
+        <link rel="stylesheet" type="text/css" href="../styles/main.css">
     </head>
 
     <body>
-        <main>
-            <h1>Remover imobiliária</h1>
-            <p>Confira as informações abaixo antes de remover a imobiliária</p>
-            <form method="post">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" maxlength="20" required value="LiveMobi@email.com" disabled />
-                <br />
-                <br />
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" maxlength="20" required value="libm2****" disabled />
-                <br />
-                <br />
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" maxlength="20" required value="Live Mobi" disabled />
-                <br />
-                <br />
-                <label for="descricao">Descrição:</label>
-                <textarea id="descricao" name="descricao" rows="4" cols="40" disabled >Live Mobi - a melhor</textarea>
-                <br />
-                <br />
-                <label for="CNPJ">CNPJ:</label>
-                <input type="text" id="CNPJ" name="CNPJ" maxlength="14" required value="93316474000128" disabled />
-                <br />
-                <br />
-                <input type="submit" value="Remover">
-                <a href="listar.html">Voltar</a>
-            </form> 
-        </main>
-        <hr />
-        <footer>
-            <p><a href="https://www.linkedin.com/in/caiosales/" target="_blank">Caio Sales - Linkedin</a></p>
-        </footer> 
+        <div class="container">
+            <main>
+                <h1>Remover imobiliária</h1>
+                <p id="subtitle" >Confira as informações abaixo antes de remover a imobiliária</p>
+                <div class="form">
+                    <form method="post">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" maxlength="20" required value="LiveMobi@email.com" disabled />
+                        <br />
+                        <br />
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" name="senha" maxlength="20" required value="libm2****" disabled />
+                        <br />
+                        <br />
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" maxlength="20" required value="Live Mobi" disabled />
+                        <br />
+                        <br />
+                        <label for="descricao">Descrição:</label>
+                        <textarea id="descricao" name="descricao" rows="4" cols="40" disabled >Live Mobi - a melhor</textarea>
+                        <br />
+                        <br />
+                        <label for="CNPJ">CNPJ:</label>
+                        <input type="text" id="CNPJ" name="CNPJ" maxlength="14" required value="93316474000128" disabled />
+                        <br />
+                        <br />
+                        <input type="submit" value="Remover">
+                        <a href="listar.html">Voltar</a>
+                    </form> 
+                </div>
+            </main>
+            <hr />
+            <div class="footer">
+                <footer>
+                    <p><a href="https://www.linkedin.com/in/caiosales/" target="_blank">Caio Sales - Linkedin</a></p>
+                </footer> 
+            </div>
+        </div>
     </body>
 </html>
