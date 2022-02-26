@@ -6,40 +6,47 @@
         <meta name="description" content="Edição de usuário." />
         <meta name="keywords" content="Usuários, Usuário" />
         <title>Editar usuário</title>
+        <link rel="stylesheet" type="text/css" href="../styles/main.css">
     </head>
 
     <body>
-        <main>
-            <h1>Editar usuário</h1>
-            <p>Preencha corretamente todos os campos para editar um usuário</p>
-            <form method="post">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" maxlength="20" required value="Joao@email.com" />
-                <br />
-                <br />
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senham" maxlength="20" required value="joa1****" />
-                <br />
-                <br />
-                <label for="tipo">Tipo:</label>
-                <select name="tipo" id="tipo" required>
-                  <option value="ADMIN" selected >ADMIN</option>
-                  <option value="CLIENT">CLIENT</option>
-                </select> 
-                <br />
-                <br />
-                <input type="submit" value="Editar">
-                <input type="reset" value="Limpar">
-                <a href="listar.html">Voltar</a>
-            </form> 
-        </main>
-        <hr />
-        <figure>
-            <img src="https://blog.gazinatacado.com.br/wp-content/uploads/2017/04/como-lidar-com-diferentes-tipos-de-clientes-2.png" alt="Imagem de usuários">
-        </figure>
-        <hr />
-        <footer>
-            <p><a href="https://www.linkedin.com/in/caiosales/" target="_blank">Caio Sales - Linkedin</a></p>
-        </footer> 
+        <div class="container">
+            <main>
+                <h1>Editar usuário</h1>
+                <p id="subtitle" >Preencha corretamente todos os campos para editar um usuário</p>
+                <div class="form">
+                    <form method="post">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" maxlength="20" required value="Joao@email.com" />
+                        <br />
+                        <br />
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" name="senham" maxlength="20" required value="joa1****" />
+                        <br />
+                        <br />
+                        <label for="tipo">Tipo:</label>
+                        <select name="tipo" id="tipo" required>
+                          <option value="ADMIN" selected >ADMIN</option>
+                          <option value="CLIENT">CLIENT</option>
+                        </select> 
+                        <br />
+                        <br />
+                        <input type="submit" value="Editar">
+                        <input type="reset" value="Limpar">
+                        <a href="listar.html">Voltar</a>
+                    </form> 
+                </div>
+            </main>
+            <hr />
+            <figure>
+                <img class="image"  src="https://www.kindpng.com/picc/m/21-215767_boneco-de-palito-com-barba-clipart-png-download.png" alt="Imagem de usuários">
+            </figure>
+            <hr />
+            <div class="footer">
+                <footer>
+                    <p><a href="https://www.linkedin.com/in/caiosales/" target="_blank">Caio Sales - Linkedin</a></p>
+                </footer> 
+            </div>
+        </div>
     </body>
 </html>
