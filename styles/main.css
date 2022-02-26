@@ -1,0 +1,73 @@
+* {
+  color: rgb(53, 53, 53);
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+a {
+  color: rgb(72, 72, 253);
+}
+
+a::after {
+  content: "→";
+}
+
+a:hover {
+  color: rgb(45, 168, 245);
+}
+
+.container {
+  padding: 20px 50px; /* lateral 50px cima/baixo 20px */
+  height: 100%;
+}
+
+.footer {
+  text-align: center;
+  font-size: small;
+}
+
+.footer p a {
+  color: black;
+}
+
+.footer p a:hover {
+  color: gray;
+}
+
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.userCard {
+  background-color: lightgray;
+  padding: 5px 20px;
+  margin: 10px;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+#subtitle {
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 20px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+    height: 100%;
+  }
+}
