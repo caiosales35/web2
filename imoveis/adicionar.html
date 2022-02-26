@@ -6,64 +6,71 @@
         <meta name="description" content="Adição de imóvel." />
         <meta name="keywords" content="Imóvel, Imóveis" />
         <title>Adicionar imóvel</title>
+        <link rel="stylesheet" type="text/css" href="../styles/main.css">
     </head>
 
     <body>
-        <main>
-            <h1>Adicionar imóvel</h1>
-            <p>Preencha corretamente todos os campos para adicionar um novo imóvel</p>
-            <form method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" maxlength="20" required />
-                <br />
-                <br />
-                <label for="descricao">Descrição:</label>
-                <textarea id="descricao" name="descricao" rows="4" cols="40" ></textarea>
-                <br />
-                <br />
-                <label for="cidade">Cidade:</label>
-                <input type="text" id="cidade" name="cidade" maxlength="20" required />
-                <br />
-                <br />
-                <label for="bairro">Bairro:</label>
-                <input type="text" id="bairro" name="bairro" maxlength="20" required />
-                <br />
-                <br />
-                <label for="cep">Cep:</label>
-                <input type="text" id="cep" name="cep" maxlength="8" required placeholder="apenas numeros" />
-                <br />
-                <br />
-                <label for="logradouro">Logradouro:</label>
-                <input type="text" id="logradouro" name="logradouro" maxlength="2" required placeholder="exemplo: SP" />
-                <br />
-                <br />
-                <label for="numero">Número:</label>
-                <input type="number" id="numero" name="numero" min="1" step="1" required />
-                <br />
-                <br />
-                <label for="foto">Foto:</label>
-                <input type="url" id="foto" name="foto" required placeholder="url da uma foto do imovel" />
-                <br />
-                <br />
-                <label for="imobiliaria">Imobiliaria:</label>
-                <select name="imobiliaria" id="imobiliaria" required>
-                    <option value="Imobi Facil">Imobi Facil</option>
-                    <option value="Imobiliária facil e amiga">Imobiliária facil e amiga</option>
-                  </select> 
-                <br />
-                <br />
-                <label for="valor">Valor R$:</label>
-                <input type="number" id="valor" name="valor" min="0" step="100" required />
-                <br />
-                <br />
-                <input type="submit" value="Adicionar">
-                <input type="reset" value="Limpar">
-                <a href="listar.html">Voltar</a>
-            </form> 
-        </main>
-        <hr />
-        <footer>
-            <p><a href="https://www.linkedin.com/in/caiosales/" target="_blank">Caio Sales - Linkedin</a></p>
-        </footer> 
+        <div class="container">
+            <main>
+                <h1>Adicionar imóvel</h1>
+                <p id="subtitle" >Preencha corretamente todos os campos para adicionar um novo imóvel</p>
+                <div class="form">
+                    <form method="post">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" maxlength="20" required />
+                        <br />
+                        <br />
+                        <label for="descricao">Descrição:</label>
+                        <textarea id="descricao" name="descricao" rows="4" cols="40" ></textarea>
+                        <br />
+                        <br />
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" id="cidade" name="cidade" maxlength="20" required />
+                        <br />
+                        <br />
+                        <label for="bairro">Bairro:</label>
+                        <input type="text" id="bairro" name="bairro" maxlength="20" required />
+                        <br />
+                        <br />
+                        <label for="cep">Cep:</label>
+                        <input type="text" id="cep" name="cep" maxlength="8" required placeholder="apenas numeros" />
+                        <br />
+                        <br />
+                        <label for="logradouro">Logradouro:</label>
+                        <input type="text" id="logradouro" name="logradouro" maxlength="2" required placeholder="exemplo: SP" />
+                        <br />
+                        <br />
+                        <label for="numero">Número:</label>
+                        <input type="number" id="numero" name="numero" min="1" step="1" required />
+                        <br />
+                        <br />
+                        <label for="foto">Foto:</label>
+                        <input type="url" id="foto" name="foto" required placeholder="url da uma foto do imovel" />
+                        <br />
+                        <br />
+                        <label for="imobiliaria">Imobiliaria:</label>
+                        <select name="imobiliaria" id="imobiliaria" required>
+                            <option value="Imobi Facil">Imobi Facil</option>
+                            <option value="Imobiliária facil e amiga">Imobiliária facil e amiga</option>
+                          </select> 
+                        <br />
+                        <br />
+                        <label for="valor">Valor R$:</label>
+                        <input type="number" id="valor" name="valor" min="0" step="100" required />
+                        <br />
+                        <br />
+                        <input type="submit" value="Adicionar">
+                        <input type="reset" value="Limpar">
+                        <a href="listar.html">Voltar</a>
+                    </form> 
+                </div>
+            </main>
+            <hr />
+            <div class="footer">
+                <footer>
+                    <p><a href="https://www.linkedin.com/in/caiosales/" target="_blank">Caio Sales - Linkedin</a></p>
+                </footer> 
+            </div>
+        </div>
     </body>
 </html>
