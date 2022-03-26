@@ -6,22 +6,28 @@ Páginas em HTML e CSS desenvolvidas durante a disciplina de desenvolvimento web
 
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
+- [JS](https://www.javascript.com/)
 
-## Páginas (CRUD Usuários):
+## Páginas Usuários:
 
-> Listar usuários (com possibilidade de remover usuário)
-> Criar usuário
-> Editar usuário
+> Listar usuários
+> Excluir usuários
+> Criar usuários
 
-## Páginas (CRUD Imobiliárias):
+## Páginas Imobiliárias:
 
-> Listar imobiliárias (com possibilidade de remover imobiliária)
+> Listar imobiliárias
+> Excluir imobiliárias
 > Criar imobiliária
-> Editar imobiliária
+
+## Páginas Imoveis:
+
+> Listar imoveis
 
 ## Instruções para rodar o projeto:
 
 - Apenas abra os arquivos em um navegador de internet com suporte a HTML.
+- Certifique-se de estar com a API rodando.
 
 ## Autor:
 
