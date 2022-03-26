@@ -7,9 +7,10 @@
         <meta name="keywords" content="Imobiliárias, Imobiliária" />
         <title>Listar imobiliárias</title>
         <link rel="stylesheet" type="text/css" href="../styles/main.css">
+        <script src="../js/imobiliarias.js" defer></script>
     </head>
 
-    <body>
+    <body onload="listarImobiliarias()">
         <div class="container">
             <main>
                 <h1>Listagem de imobiliárias</h1>
@@ -18,82 +19,8 @@
                     <a href="adicionar.html">Adicionar</a>
                 </div>
                 
-                <div class="cardList">
-                    <div class="card">
-                        <p>Email: Imob@email.com</p>
-                        <p>Senha: imob1****</p>
-                        <p>Nome: Imobi Facil</p>
-                        <p>Descrição: Imobiliária facil e top</p>
-                        <p>CNPJ: 57.405.875/0001-90</p>
-                        <p><a href="editar.html">Editar</a></p>
-                    </div>
-                    <div class="card">
-                        <p>Email: LiveMobi@email.com</p>
-                        <p>Senha: libm2****</p>
-                        <p>Nome: Live Mobi</p>
-                        <p>Descrição: Live Mobi - a melhor</p>
-                        <p>CNPJ: 93.316.474/0001-28</p>
-                        <p><a href="remover.html">Remover</a></p>
-                    </div>
-
-                    <!-- apenas para testar responsividade -->
-                    <div class="card">
-                        <p>Email: LiveMobi@email.com</p>
-                        <p>Senha: libm2****</p>
-                        <p>Nome: Live Mobi</p>
-                        <p>Descrição: Live Mobi - a melhor</p>
-                        <p>CNPJ: 93.316.474/0001-28</p>
-                        <p><a href="remover.html">Remover</a></p>
-                    </div>
-                    <div class="card">
-                        <p>Email: LiveMobi@email.com</p>
-                        <p>Senha: libm2****</p>
-                        <p>Nome: Live Mobi</p>
-                        <p>Descrição: Live Mobi - a melhor</p>
-                        <p>CNPJ: 93.316.474/0001-28</p>
-                        <p><a href="remover.html">Remover</a></p>
-                    </div>
-                    <div class="card">
-                        <p>Email: LiveMobi@email.com</p>
-                        <p>Senha: libm2****</p>
-                        <p>Nome: Live Mobi</p>
-                        <p>Descrição: Live Mobi - a melhor</p>
-                        <p>CNPJ: 93.316.474/0001-28</p>
-                        <p><a href="remover.html">Remover</a></p>
-                    </div>
-                    <div class="card">
-                        <p>Email: LiveMobi@email.com</p>
-                        <p>Senha: libm2****</p>
-                        <p>Nome: Live Mobi</p>
-                        <p>Descrição: Live Mobi - a melhor</p>
-                        <p>CNPJ: 93.316.474/0001-28</p>
-                        <p><a href="remover.html">Remover</a></p>
-                    </div>
-                    <div class="card">
-                        <p>Email: LiveMobi@email.com</p>
-                        <p>Senha: libm2****</p>
-                        <p>Nome: Live Mobi</p>
-                        <p>Descrição: Live Mobi - a melhor</p>
-                        <p>CNPJ: 93.316.474/0001-28</p>
-                        <p><a href="remover.html">Remover</a></p>
-                    </div>
-                    <div class="card">
-                        <p>Email: LiveMobi@email.com</p>
-                        <p>Senha: libm2****</p>
-                        <p>Nome: Live Mobi</p>
-                        <p>Descrição: Live Mobi - a melhor</p>
-                        <p>CNPJ: 93.316.474/0001-28</p>
-                        <p><a href="remover.html">Remover</a></p>
-                    </div>
-                    <div class="card">
-                        <p>Email: LiveMobi@email.com</p>
-                        <p>Senha: libm2****</p>
-                        <p>Nome: Live Mobi</p>
-                        <p>Descrição: Live Mobi - a melhor</p>
-                        <p>CNPJ: 93.316.474/0001-28</p>
-                        <p><a href="remover.html">Remover</a></p>
-                    </div>
-                    <!-- apenas para testar responsividade -->
+                <div class="cardList" id="rootDiv">
+                    
                 </div> 
             </main>
             <br />

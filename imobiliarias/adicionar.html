@@ -7,6 +7,7 @@
         <meta name="keywords" content="Imobiliárias, Imobiliária" />
         <title>Adicionar imobiliárias</title>
         <link rel="stylesheet" type="text/css" href="../styles/main.css">
+        <script src="../js/imobiliarias.js" defer></script>
     </head>
 
     <body>
@@ -36,10 +37,10 @@
                         <input type="text" id="CNPJ" name="CNPJ" maxlength="14" required placeholder="apenas numeros"/>
                         <br />
                         <br />
-                        <input type="submit" value="Adicionar">
                         <input type="reset" value="Limpar">
                         <a href="listar.html">Voltar</a>
                     </form> 
+                    <button onClick="adicionarImobiliaria()" >Adicionar</button>
                 </div>
             </main>
             <hr />
